@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "isolatedModules": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "types": ["@celeranis/node-current-types", "node", "@jest/globals", "chai"]
+  },
+  "include": ["lib", "bin", "test"],
+  "typeAcquisition": {
+    "enable": false
+  }
+}

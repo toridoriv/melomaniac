@@ -1,0 +1,5 @@
+# Node related
+node_modules
+
+# Test related
+coverage

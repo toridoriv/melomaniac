@@ -1,0 +1,33 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false,
+    "source.fixAll.eslint": true
+  },
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "json", "jsonc", "yaml"],
+  "eslint.useESLintClass": true,
+  "eslint.nodePath": "node_modules/eslint",
+  "eslint.runtime": "node",
+  "eslint.onIgnoredFiles": "warn",
+  "javascript.suggestionActions.enabled": false,
+  "typescript.suggest.paths": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.rulers": [100]
+}

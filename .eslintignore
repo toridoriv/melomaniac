@@ -1,0 +1,12 @@
+# Node related
+node_modules
+
+# Test related
+coverage
+
+# Vscode related
+!.vscode
+
+!.*.js
+
+package*.json
